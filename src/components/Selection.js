@@ -10,7 +10,7 @@ const Selection = (props) => {
   };
 
   return (
-    <div className='fix-box' data-testid={applyColor.background} style={backgroundcolor} onClick={handleClick} >
+    <div className='fix-box' style={backgroundcolor} onClick={handleClick} >
         <center>Selection</center>
     </div>
   )
